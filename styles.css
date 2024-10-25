@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+   
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: scroll;
+    width:100vh;
+    height:100vh;
+  
+    
+   
+}
+
+.user-icon{
+    color:aliceblue;
+    position:absolute;
+    font-size:60px;
+    top:1%;
+    left:50%;
+    transform:translate(-50%,-10%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px 5px grey;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+}
+.my-form-fields{
+        background-color: blueviolet;
+        position: absolute;
+        width: 400px;
+        height:400px;
+        top:20%;
+        left:33%;
+      transform: translate(-60px,-50px);
+      /* box-shadow:0px 0px 15px 5px mediumspringgreen; */
+      border-radius: 30px;
+}
+.name,.password{
+    width:300px;
+    margin:20px auto;
+    background-color: white;
+    padding:10px 20px;
+}
+
+.name input,.password input{
+    border:none;
+    padding-left: 20px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.my-btn button{
+    border:none;
+    width:200px;
+    height:50px;
+    background-color: chocolate;
+    margin-left: 45px;
+    position:absolute;
+    text-align: center;
+    display: inline;
+    color:white;
+
+}
+.forget-password{
+    position:absolute;
+    left:10%;
+}
+.forget-password a{
+    color: aqua;
+    font-size: 1rem;
+    font-weight:400;
+}
+.sign-up{
+    position: absolute;
+    right: 10%;
+}
+.sign-up a{
+    color:white;
+   
+
+}
+.forget-password-sign-up-container{
+    width:100%;
+    height:30px;
+    margin-top:25px;
+    position:relative;
+}
+.my-input-group{
+    z-index: -1;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+}
+.name-password-my-button {
+    margin-top: 32%;
+  }
